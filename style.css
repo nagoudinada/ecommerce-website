@@ -84,7 +84,7 @@ body{
     width: 30%;
     height: 2px;
     background-color: #088178;
-    position: absolute;
+    position: absolute; 
     bottom: -4px;
     left: 20px;
 }
