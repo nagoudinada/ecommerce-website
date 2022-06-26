@@ -298,3 +298,62 @@ body{
     color: #fff;
 }
 
+#sm-banner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#sm-banner .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(img/banner/b17.jpg);
+    min-width: 830px;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 60px;
+    padding-left: 30px;
+}
+
+#sm-banner .banner-box h4{
+    color: #fff;
+    font-size: 26px;
+    font-weight: 300;
+}
+
+#sm-banner .banner-box h2{
+    color: #fff;
+    font-size: 34px;
+    font-weight: 800;
+}
+
+#sm-banner .banner-box span{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+#sm-banner .banner-box button{
+    color: #fff;
+    border: 1px solid #fff;
+    width: 130px;
+    height: 40px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.4s ease;
+    font-weight: 500;
+}
+
+#sm-banner .banner-box button:hover{
+    border: none;
+    background-color: #088178;
+}
+
+#sm-banner .banner-box2{
+    background-image: url(img/banner/b10.jpg);
+}
