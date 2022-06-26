@@ -263,6 +263,7 @@ body{
     height: 40vh;
     background-size: cover;
     background-position: center;
+    margin-bottom: 60px;
 }
 
 #banner h4{
